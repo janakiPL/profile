@@ -1,0 +1,92 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], input[type=password] {
+    width:100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin:8px 0;
+    float:right;
+    border:none;
+}
+div.icon-bar{
+    width: 10px;
+    height: 5px;
+    background-color: black;
+    margin: 3px 0;
+}
+.navbar-brand{
+   width: 300px;
+   height: 10px;
+    font-size: larger;
+    font-style: italic;
+    font-weight: 900;
+}
+.a{
+    height:200px;
+    width:200px;
+    border-radius: 55%;
+    opacity: 1;
+    cursor: pointer;
+}
+.a:hover{
+    opacity:1;
+    box-shadow: rgba(0, 0, 0, 0.5) 20px 20px 30px;
+}
+.b{
+   background-color: green;
+   height:30px;
+   width:20%;
+}
+.c{
+    background-color: chocolate;
+    height:30px;
+    width:100%;
+}
+.d{
+    font-weight: 500;
+    font-style: bold;
+    font-size: medium;
+   
+}
+.e{
+    background-color: chocolate;
+    height:30px;
+    width:100%;
+}
+
+.f{
+    height:100px;
+    width:150px;
+}
+.g{
+    
+    height:30px;
+    width:100%;
+}
+.h{
+    font-style: bold;
+    font-size: medium;
+    font-weight: 700;
+}
+.i{
+    background-color: chocolate;
+    height:30px;
+    width:100%;
+
+}
+body{
+    background: linear-gradient(#a84ff0 20%, #b195e6 30%, #e395e6 50%, #e69895 70%, #95e6e3 100%);
+}
